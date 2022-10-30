@@ -592,10 +592,19 @@ main {
 /* RESPONSIVE  */
 @media screen and (max-width: 1400px) {
   .banner-text h1 {
-    color: #333333;
     font-size: 52px;
-    font-weight: 700;
-    line-height: 140%;
+  }
+  .banner-heading img {
+    display: none;
+  }
+  .stats {
+    position: absolute;
+    top: 45px;
+    right: 142px;
+    background-color: #2c3878;
+  }
+  .disclaimer p {
+    display: none;
   }
 }
 
